@@ -2,16 +2,16 @@ import { useState } from 'react'
 
 function App() {
   const images = {
-    hero: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=1600&q=80',
+    hero: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=1600&q=80&fit=crop',
     productos: [
-      { img: 'https://images.unsplash.com/photo-1591195853828-11db79442529?w=500&q=80', name: 'Bouquet Aurora', price: 35 },
-      { img: 'https://images.unsplash.com/photo-1507290439931-a861b5a3825c?w=500&q=80', name: 'Caja Rosé Deluxe', price: 58 },
-      { img: 'https://images.unsplash.com/photo-1596627689914-2e78f836e6e9?w=500&q=80', name: 'Girasoles de Medianoche', price: 42 },
-      { img: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=500&q=80', name: 'Desayuno Amor Bonito', price: 50 },
-      { img: 'https://images.unsplash.com/photo-1563241527-300c2783e639?w=500&q=80', name: 'Ramo Primavera', price: 39 },
-      { img: 'https://images.unsplash.com/photo-1582794543139-8ac92a9abf3d?w=500&q=80', name: 'Box Encanto Floral', price: 65 },
-      { img: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&q=80', name: 'Orquídea Blanca Premium', price: 75 },
-      { img: 'https://images.unsplash.com/photo-1561181286-d3fee7d55300?w=500&q=80', name: 'Centro de Mesa Elegance', price: 85 },
+      { img: 'https://images.unsplash.com/photo-1591195853828-11db79442529?w=500&q=80&fit=crop', name: 'Bouquet Aurora', price: 35 },
+      { img: 'https://images.unsplash.com/photo-1507290439931-a861b5a3825c?w=500&q=80&fit=crop', name: 'Caja Rosé Deluxe', price: 58 },
+      { img: 'https://images.unsplash.com/photo-1596627689914-2e78f836e6e9?w=500&q=80&fit=crop', name: 'Girasoles de Medianoche', price: 42 },
+      { img: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=500&q=80&fit=crop', name: 'Desayuno Amor Bonito', price: 50 },
+      { img: 'https://images.unsplash.com/photo-1563241527-300c2783e639?w=500&q=80&fit=crop', name: 'Ramo Primavera', price: 39 },
+      { img: 'https://images.unsplash.com/photo-1582794543139-8ac92a9abf3d?w=500&q=80&fit=crop', name: 'Box Encanto Floral', price: 65 },
+      { img: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&q=80&fit=crop', name: 'Orquídea Blanca Premium', price: 75 },
+      { img: 'https://images.unsplash.com/photo-1561181286-d3fee7d55300?w=500&q=80&fit=crop', name: 'Centro de Mesa Elegance', price: 85 },
     ],
   }
 
