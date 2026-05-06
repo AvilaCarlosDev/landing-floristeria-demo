@@ -19,7 +19,7 @@ function App() {
     <div className="min-h-screen bg-white font-sans">
       {/* Header estilo Aflora */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
           <div className="flex justify-between items-center py-4">
             <a href="#inicio" className="flex items-center gap-3">
               <span className="text-4xl">🌸</span>
@@ -52,7 +52,7 @@ function App() {
       <main>
         {/* Hero estilo Aflora - limpio, blanco */}
         <section id="inicio" className="pt-32 pb-20 bg-white">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -80,7 +80,7 @@ function App() {
 
         {/* Beneficios */}
         <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 { icon: '🚚', title: 'Entrega el mismo día', desc: 'Pedidos antes de las 2 PM' },
@@ -100,7 +100,7 @@ function App() {
 
         {/* Catálogo estilo Aflora - cards blancas, precios verdes */}
         <section id="catalogo" className="py-20 bg-white">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Nuestros Productos</h2>
               <p className="text-lg text-gray-600">Elige tu arreglo floral favorito</p>
@@ -140,7 +140,7 @@ function App() {
 
         {/* Sección personalizado */}
         <section className="py-20 bg-pink-50">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                 ¿Quieres un arreglo floral personalizado?
@@ -157,7 +157,7 @@ function App() {
 
         {/* Historia */}
         <section className="py-20 bg-white">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8 text-center">
                 Más de veinte años uniendo personas a través de las flores
@@ -195,7 +195,7 @@ function App() {
 
         {/* Testimonios */}
         <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Así Se Sintieron Nuestros Clientes</h2>
             </div>
@@ -217,7 +217,7 @@ function App() {
 
         {/* CTA Final */}
         <section className="py-20 bg-white">
-          <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-8">
                 ¿Listo para enviar flores?
@@ -232,7 +232,7 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-[1920px] mx-auto px-6 lg:px-12">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
