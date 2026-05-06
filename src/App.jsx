@@ -151,6 +151,30 @@ function App() {
         </div>
       </section>
 
+
+      {/* Social Proof - Stats */}
+      <section className="bg-pink-50 py-12 px-6 lg:px-12">
+        <div className="max-w-[1800px] mx-auto">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-pink-600 mb-2">+500</div>
+              <div className="text-sm lg:text-base font-bold text-pink-800">Arreglos entregados</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-pink-600 mb-2">4.8★</div>
+              <div className="text-sm lg:text-base font-bold text-pink-800">Clientes felices</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-pink-600 mb-2">100%</div>
+              <div className="text-sm lg:text-base font-bold text-pink-800">Frescura garantizada</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-black text-pink-600 mb-2">24h</div>
+              <div className="text-sm lg:text-base font-bold text-pink-800">Entrega rápida</div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Featured Products */}
       <section className="py-24 px-6 lg:px-12 bg-gradient-to-br from-pink-50 to-rose-50">
         <div className="max-w-[1600px] mx-auto">
