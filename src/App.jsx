@@ -6,20 +6,20 @@ function App() {
   // Imágenes reales de Unsplash - Flores
   const images = {
     hero: 'https://images.unsplash.com/photo-1490750967868-58cb75069ed6?w=1200&q=80',
-    about: 'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
+    about: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
     categorias: {
-      ramos: 'https://source.unsplash.com/random/500x500/?flowers,roses&q=80',
-      bodas: 'https://source.unsplash.com/random/500x500/?flowers,roses&q=80',
-      eventos: 'https://source.unsplash.com/random/500x500/?flowers,roses&q=80',
-      globos: 'https://source.unsplash.com/random/500x500/?flowers,roses&q=80',
+      ramos: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/500x500/?flowers,roses&q=80q=80',
+      bodas: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/500x500/?flowers,roses&q=80q=80',
+      eventos: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/500x500/?flowers,roses&q=80q=80',
+      globos: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/500x500/?flowers,roses&q=80q=80',
     },
     galeria: [
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
-      'https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=800https://source.unsplash.com/random/600x400/?flowers,bouquet&q=80q=80',
     ],
     productos: [
       { img: 'https://images.unsplash.com/photo-1563241527-300c2783e639?w=400&q=80', name: 'Ramo de Rosas', price: '$45' },
