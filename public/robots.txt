@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agencia-web-floristeria-demo.vercel.app/sitemap.xml
