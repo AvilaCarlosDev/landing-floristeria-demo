@@ -9,7 +9,7 @@ const arrangements = [
     name: 'Ramo Siena Signature',
     occasion: 'Amor',
     price: 48,
-    image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=900&q=85&fit=crop',
+    image: '/img/bouquet.jpg',
     note: 'Rosas premium, eucalipto y envoltorio artesanal',
     tag: 'Más pedido',
   },
@@ -17,21 +17,21 @@ const arrangements = [
     name: 'Caja Rosé de Autor',
     occasion: 'Cumpleaños',
     price: 62,
-    image: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=900&q=85&fit=crop',
+    image: '/img/foto-15260479322733.jpg',
     note: 'Caja floral con tonos rosados, tarjeta y lazo satinado',
   },
   {
     name: 'Orquídea Blanca Serena',
     occasion: 'Condolencias',
     price: 74,
-    image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=900&q=85&fit=crop',
+    image: '/img/foto-15181992667915.jpg',
     note: 'Diseño sobrio para mensajes de respeto y acompañamiento',
   },
   {
     name: 'Mesa Jardín Íntimo',
     occasion: 'Eventos',
     price: 120,
-    image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55300?w=900&q=85&fit=crop',
+    image: '/img/garden-table.jpg',
     note: 'Centro de mesa para cenas, bodas civiles y celebraciones',
     tag: 'Eventos',
   },
@@ -39,14 +39,14 @@ const arrangements = [
     name: 'Girasoles Al Alba',
     occasion: 'Detalle',
     price: 39,
-    image: 'https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=900&q=85&fit=crop',
+    image: '/img/foto-1597848212624a.jpg',
     note: 'Alegre, luminoso y perfecto para levantar el día',
   },
   {
     name: 'Desayuno Amor Bonito',
     occasion: 'Amor',
     price: 58,
-    image: 'https://images.unsplash.com/photo-1506806732259-39c2d0268443?w=900&q=85&fit=crop',
+    image: '/img/foto-15068067322593.jpg',
     note: 'Flores, dulces, bebida, tarjeta personalizada y empaque premium',
   },
 ]
@@ -55,17 +55,17 @@ const services = [
   {
     title: 'Ramos personalizados',
     desc: 'Diseños según ocasión, color favorito y mensaje que quieras expresar.',
-    image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=900&q=85&fit=crop',
+    image: '/img/foto-14907509678688.jpg',
   },
   {
     title: 'Eventos íntimos',
     desc: 'Mesas, rincones florales, bodas civiles, cumpleaños y cenas especiales.',
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&q=85&fit=crop',
+    image: '/img/foto-15192254219807.jpg',
   },
   {
     title: 'Entregas sorpresa',
     desc: 'Coordinamos horario, dedicatoria, evidencia de entrega y presentación impecable.',
-    image: 'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=900&q=85&fit=crop',
+    image: '/img/foto-1487070183336b.jpg',
   },
 ]
 
@@ -80,17 +80,17 @@ const reviews = [
   {
     name: 'Valentina Márquez',
     text: 'Pedí un ramo para mi mamá y parecía salido de una revista. Llegó puntual y con una tarjeta preciosa.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=85&fit=crop',
+    image: '/img/foto-1494790108377b.jpg',
   },
   {
     name: 'Andrea Salas',
     text: 'Siena Flower decoró mi boda civil. Todo fue delicado, elegante y exactamente como lo imaginé.',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&q=85&fit=crop',
+    image: '/img/foto-15345287417755.jpg',
   },
   {
     name: 'Miguel Torres',
     text: 'Me ayudaron a elegir flores para aniversario. La atención por WhatsApp fue rápida y muy cuidadosa.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=85&fit=crop',
+    image: '/img/foto-15006487677910.jpg',
   },
 ]
 
@@ -181,11 +181,11 @@ function App() {
 
             <div className="relative z-10 grid min-h-[620px] grid-cols-2 gap-4">
               <div className="mt-20 overflow-hidden rounded-t-full rounded-b-[2rem] bg-white p-3 shadow-2xl shadow-[#4a151c]/10">
-                <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ee0?w=900&q=90&fit=crop" alt="Ramo de rosas rosadas" className="h-full w-full rounded-t-full rounded-b-[1.5rem] object-cover" />
+                <img src="/img/bouquet.jpg" alt="Ramo de rosas rosadas" className="h-full w-full rounded-t-full rounded-b-[1.5rem] object-cover" />
               </div>
               <div className="space-y-4">
                 <div className="overflow-hidden rounded-[2rem] bg-white p-3 shadow-xl shadow-[#4a151c]/10">
-                  <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=90&fit=crop" alt="Flores frescas" className="h-72 w-full rounded-[1.5rem] object-cover" />
+                  <img src="/img/foto-14907509678688.jpg" alt="Flores frescas" className="h-72 w-full rounded-[1.5rem] object-cover" />
                 </div>
                 <div className="rounded-[2rem] bg-[#4a151c] p-7 text-white shadow-xl shadow-[#4a151c]/15">
                   <p className="font-serif text-3xl italic leading-tight">“Cada ramo se arma como una pequeña carta.”</p>
@@ -285,7 +285,7 @@ function App() {
               </div>
             </div>
             <div className="relative min-h-[460px]">
-              <img src="https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=1100&q=85&fit=crop" alt="Florista preparando arreglo" className="absolute inset-0 h-full w-full object-cover opacity-75" />
+              <img src="/img/foto-1559563362c667.jpg" alt="Florista preparando arreglo" className="absolute inset-0 h-full w-full object-cover opacity-75" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#4a151c]/90 to-transparent" />
             </div>
           </div>
